@@ -11,20 +11,25 @@
 	-o-box-sizing: border-box;
 }
 .tudo{
-	
+
 }
 header{
-	
+	width: 100%;
+	height: 200px;
+	background-color: red;
 }
 header img{
-	
+	margin: 5px;
+	width: 300px;
 }
 header ul{
-	display: inline-block;
 	float: right;
+	margin: 0 50px 0 0;
 }
 header ul li{
+	margin: 0 0 0 20px;
 	list-style: none;
+	display: inline-block;
 }
 header ul li a{
 	text-decoration: none;
