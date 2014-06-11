@@ -1,0 +1,5 @@
+CORES 
+
+CINZA Rodapé - #6d6e71
+Lilas Menu - #655fad
+Cinza Texto - #d2d4d8
