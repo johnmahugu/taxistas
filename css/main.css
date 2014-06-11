@@ -14,6 +14,7 @@
 
 }
 header{
+	top: 0;
 	width: 100%;
 	height: 200px;
 	background-color: red;
@@ -36,6 +37,7 @@ header ul li a{
 	font-size: 2em;
 }
 .corpo{
+	margin: 1em 0 0 0;
 	width: 100%;
 	height: 600px;
 	background-image: url(../img/bg_página_3.png);
@@ -43,7 +45,6 @@ header ul li a{
 }
 .corpo .pc{
 	margin: 2.9em 0 0 19em;
-
 }
 .corpo .mobi{
 	display: none;
