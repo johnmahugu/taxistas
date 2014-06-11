@@ -16,5 +16,11 @@ header img{
 
 }
 header ul{
-
+	display: inline-block;
+}
+header ul li{
+	list-style: none;
+}
+header ul li a{
+	text-decoration: none;
 }
