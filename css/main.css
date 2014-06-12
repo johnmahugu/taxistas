@@ -100,10 +100,19 @@ input[type="text"] {
     position: absolute;
 }
 .conteudo_da_pesquisa{
+	margin: 10px 0 10px 0;
 	width: 100%;
 	height: 500px;
 	overflow: hidden;
+	text-align: center;
 }
+table td, th {
+      padding: 5px 30px 5px 30px;
+}
+table{
+	margin: 0 0 0 300px;
+} 
+
 footer{
 	background-color: #6d6e71;
 	width: 100%;
