@@ -8,6 +8,7 @@
 	padding: 0 50px 0 50px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
+	-ms-box-sizing:border-box;
 	-o-box-sizing: border-box;
 }
 .tudo{
@@ -17,15 +18,19 @@ header{
 	top: 0;
 	width: 100%;
 	height: 200px;
-	background-color: red;
 }
 header img{
-	margin: 5px;
+	margin: 45px 0 5px 5px;
 	width: 300px;
+	-o-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg); 
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
 }
 header ul{
 	float: right;
-	margin: 0 50px 0 0;
+	margin: 45px 50px 0 0;
 }
 header ul li{
 	margin: 0 0 0 20px;
@@ -34,7 +39,7 @@ header ul li{
 }
 header ul li a{
 	text-decoration: none;
-	font-size: 1.7em;
+	font-size: 1.5em;
 }
 .corpo{
 	margin: 1em 0 0 0;
@@ -54,14 +59,19 @@ fieldset{
 }
 .pesquisar{
 	width: 100%;
-	height: 40px;
-	background-color: orange;
+	height: auto;
+	text-align: center;
+	padding: 0 0 0 285px;
+}
+.formulario_pesquisa{
+	width: 600px;
 	position: relative;
 }
 input[type="text"] {
-	width: 150px;
+	width: 400px;
 	border: 1px solid #2ebbd1;
 	background-color: #0fa9f0;
+	color: #fff;
 	padding: 6px 15px 6px 35px;
 	-webkit-border-radius:20px;
 	-moz-border-radius:20px;
@@ -75,18 +85,19 @@ input[type="text"] {
     width:19px;
     height:19px; 
     border:0;
-    top: 5px;
-    left: 170px;
     z-index:100;
+    top: 5px;
+    left: 500px;
     cursor:pointer;
     text-indent:-999999px;
-    position: absolute;
     overflow:hidden;
+    position: absolute;
 }
+
 footer{
-	background-color: green;
+	background-color: #6d6e71;
 	width: 100%;
-	height: 50px;
+	height: 30px;
 	text-align: center;
 
 }
