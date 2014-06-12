@@ -49,10 +49,36 @@ header ul li a{
 .corpo .mobi{
 	display: none;
 }
+fieldset{
+	border: 0;
+}
+input[type="text"] {
+	width: 150px;
+	border: 1px solid #d1d1d1;
+	background-color: #0fa9f0;
+	padding: 6px 15px 6px 35px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	border-radius:20px;
+
+}
+.pesquisa_icon{
+	background:url(../img/pesquisar.png) no-repeat;
+    width:19px;
+    height:19px; 
+    border:0;
+    z-index:10;
+    cursor:pointer;
+    text-indent:-999999px;
+    position: absolute;
+    overflow:hidden;
+}
 footer{
 	background-color: green;
 	width: 100%;
 	height: 50px;
 	text-align: center;
+
 }
 
