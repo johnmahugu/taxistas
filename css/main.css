@@ -112,6 +112,13 @@ input[type="text"] {
 	width: 750px;
 	overflow-y:scroll; 
 }
+.controlo_da_pesq::-webkit-scrollbar{
+	width: 10px;
+	background-color: #d2d4d8; 
+}
+.controlo_da_pesq::-webkit-scrollbar-thumb{
+	background-color: #655fad; 
+}
 table td, th {
       padding: 5px 30px 5px 30px;
 }
