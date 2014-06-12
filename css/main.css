@@ -67,6 +67,7 @@ fieldset{
 .pesquisar a{
 	color: #d2d4d8;
 	text-decoration: none;
+	margin: 0 305px 0 0;
 }
 .formulario_pesquisa{
 	width: 600px;
@@ -111,8 +112,14 @@ table td, th {
 }
 table{
 	margin: 0 0 0 300px;
+	
 } 
-
+th{
+	color: #fff;
+}
+td{
+	color: #d2d4d8;
+}
 footer{
 	background-color: #6d6e71;
 	width: 100%;
