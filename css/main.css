@@ -40,6 +40,7 @@ header ul li{
 header ul li a{
 	text-decoration: none;
 	font-size: 1.5em;
+	color: #655fad;
 }
 .corpo{
 	margin: 1em 0 0 0;
@@ -63,6 +64,10 @@ fieldset{
 	text-align: center;
 	padding: 0 0 0 285px;
 }
+.pesquisar a{
+	color: #d2d4d8;
+	text-decoration: none;
+}
 .formulario_pesquisa{
 	width: 600px;
 	position: relative;
@@ -75,6 +80,7 @@ input[type="text"] {
 	padding: 6px 15px 6px 35px;
 	-webkit-border-radius:20px;
 	-moz-border-radius:20px;
+	-ms-border-radius:20px;
 	-o-border-radius:20px;
 	border-radius:20px;
 	z-index: 90;
@@ -87,18 +93,23 @@ input[type="text"] {
     border:0;
     z-index:100;
     top: 5px;
-    left: 500px;
+    left: 495px;
     cursor:pointer;
     text-indent:-999999px;
     overflow:hidden;
     position: absolute;
 }
-
+.conteudo_da_pesquisa{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
 footer{
 	background-color: #6d6e71;
 	width: 100%;
 	height: 30px;
 	text-align: center;
+	color: #d2d4d8;
 
 }
 
