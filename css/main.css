@@ -125,22 +125,29 @@ input[type="text"] {
 	width: 100%;
 	height: 500px;
 	text-align: center;
+	position: relative;
+
 }
 .controlo_da_pesq{
 	margin: 0 0 0 250px;
 	height: 100%;
 	width: 750px;
-	overflow-y:scroll; 
+	overflow-y:scroll;
+	background-color: red; 
 }
-.controlo_da_pesq::-webkit-scrollbar{
-	width: 10px;
-	background-color: #d2d4d8;
-	border-radius: 20px;  
+.controlo_da_pesq::-webkit-scrollbar {
+    width: 10px;
+    background-color: #d2d4d8;
+    -webkit-border-radius: 20px;
+    border-radius: 20px
 }
-.controlo_da_pesq::-webkit-scrollbar-thumb{
-	background-color: #655fad;
-	border-radius: 20px; 
+
+.controlo_da_pesq::-webkit-scrollbar-thumb {
+    background-color: #655fad;
+    -webkit-border-radius: 20px;
+    border-radius: 20px
 }
+
 table td, th {
       padding: 5px 30px 5px 30px;
 }
@@ -152,6 +159,30 @@ th{
 td{
 	color: #d2d4d8;
 	font-family: 'Open_light';
+}
+.seta_anterior, .seta_proximo{
+	width: 20px;
+	height: 20px;
+	top: 200px;
+	background-color: #fff;
+	border-radius: 20px;
+	position: absolute;
+	opacity: .5;
+	-webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+.seta_anterior:hover, .seta_proximo:hover{
+	opacity: 1;
+}
+.seta_anterior{
+	left: 200px;
+	
+}
+.seta_proximo{
+	right: 200px;
 }
 footer{
 	background-color: #6d6e71;
