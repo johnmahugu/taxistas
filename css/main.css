@@ -133,7 +133,6 @@ input[type="text"] {
 	height: 100%;
 	width: 750px;
 	overflow-y:scroll;
-	background-color: red; 
 }
 .controlo_da_pesq::-webkit-scrollbar {
     width: 10px;
@@ -167,7 +166,7 @@ td{
 	background-color: #fff;
 	border-radius: 20px;
 	position: absolute;
-	opacity: .5;
+	opacity: .3;
 	-webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -ms-transition: opacity 1s ease-in-out;
@@ -175,7 +174,7 @@ td{
     transition: opacity 1s ease-in-out;
 }
 .seta_anterior:hover, .seta_proximo:hover{
-	opacity: 1;
+	opacity: .7;
 }
 .seta_anterior{
 	left: 200px;
@@ -195,5 +194,4 @@ footer{
 }
 footer span{
 	vertical-align: middle;
-
 }
