@@ -177,6 +177,7 @@ td{
 }
 .seta_anterior:hover, .seta_proximo:hover{
 	opacity: .7;
+	cursor: pointer;
 }
 .seta_anterior{
 	left: 50px;
@@ -192,9 +193,7 @@ footer{
 	text-align: center;
 	color: #d2d4d8;
 	font-family: 'Open_light';
-	
-
 }
 footer span{
-	vertical-align: middle;
+	
 }
