@@ -91,10 +91,11 @@ fieldset{
 .formulario_pesquisa{
 	width: 600px;
 	position: relative;
+	margin: 0 0 5px 0;
 }
 input[type="text"] {
 	width: 400px;
-	border: 1px solid #2ebbd1;
+	border:0 none;
 	background-color: #0fa9f0;
 	font-family: 'Open-semibold';
 	color: #fff;
