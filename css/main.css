@@ -156,10 +156,12 @@ table td, th {
 th{
 	color: #fff;
 	font-family: 'Open-semibold';
+	border: 1px solid #6d6e71;
 }
 td{
 	color: #d2d4d8;
 	font-family: 'Open_light';
+	border: 1px solid #6d6e71;
 }
 .seta_anterior, .seta_proximo{
 	width: 20px;
