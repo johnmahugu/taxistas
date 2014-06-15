@@ -82,10 +82,25 @@ fieldset{
 	text-align: center;
 	padding: 0 0 0 155px;
 }
+.lista{
+	border: 0 !important; 
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance:none;
+	-o-appearance:none; 
+	background: #0088cc url(../img/seta.png) no-repeat 90% center;
+	width: 100px; 
+	text-indent: 0.01px; 
+	text-overflow: "";  
+	color: #FFF;
+	font-family: 'Open_light';
+	border-radius: 20px;
+	padding: 5px;
+}
+
 .pesquisar a{
 	color: #d2d4d8;
 	text-decoration: none;
-	margin: 0 30px 0 0;
 	font-family: 'Open_regular';
 }
 .formulario_pesquisa{
