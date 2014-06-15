@@ -1,49 +1,49 @@
 [
   {
     "nome":"Jorge Gomes",
-    "dispo":"Todos dias",
+    "dispo":"Segunda á sexta",
     "numero":"999245672",
     "matricula":"Ld lh 12 56",
     "via":"Maianga"
   },
   {
     "nome":"Paulo Tunga",
-    "dispo":"Todos dias",
+    "dispo":"Quintas",
     "numero":"999245672",
     "matricula":"Ld lh 12 56",
     "via":"Mutamba"
   },
   {
     "nome":"Nuria Ar",
-    "dispo":"Todos dias",
+    "dispo":"Quartas",
     "numero":"999245672",
     "matricula":"Ld lh 12 56",
     "via":"Kilamba"
   },
   {
     "nome":"Lucas Duarte",
-    "dispo":"Todos dias",
+    "dispo":"3ª",
     "numero":"999245672",
     "matricula":"Ld lh 12 56",
     "via":"Morro Bento"
   },
   {
     "nome":"Sergio Reamos",
-    "dispo":"Todos dias",
+    "dispo":"Sabados",
     "numero":"999245672",
     "matricula":"Ld lh 12 56",
     "via":"Golf-2"
   },
   {
     "nome":"Eliano quiza",
-    "dispo":"Todos dias",
+    "dispo":"Domingos",
     "numero":"999245672",
     "matricula":"Ld lh 12 56",
     "via":"Benfica"
   },
   {
     "nome":"Flowck 2",
-    "dispo":"Todos dias",
+    "dispo":"Final de semana",
     "numero":"999245672",
     "matricula":"Ld lh 12 56",
     "via":"Rangel"
@@ -57,7 +57,7 @@
   },
   {
     "nome":"Augusto da Costa",
-    "dispo":"Todos dias",
+    "dispo":"Dias de semana",
     "numero":"999245672",
     "matricula":"Ld lh 12 56",
     "via":"Nzamba-2"

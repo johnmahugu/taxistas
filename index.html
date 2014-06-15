@@ -32,6 +32,13 @@
                     			<input type="submit" class="pesquisa_icon"/>
                 			</fieldset>
             			</form>
+                  <label for="ordenar" class="ordenar_cla">Por:
+                    <select id="ordenar" ng-model="taxistasOrder">
+                      <option value="nome">Nome</option>
+                      <option value="dispo">Disponibilidade</option>
+                      <option value="via">Via</option>
+                    </select>
+                  </label>
             			<a href="#">Lista de Taxistas</a>
 					</div>
 					<div class="conteudo_da_pesquisa">
@@ -44,7 +51,7 @@
        									<th>Matrícula</th>
        									<th>Via</th>
       								</tr>
-      								 <tr ng-repeat="item in taxistas | filter: query ">
+      								 <tr ng-repeat="item in taxistas | filter: query | orderBy: taxistasOrder">
        	 								<td>{{item.nome}}</td>
         								<td>{{item.dispo}}</td>
        									<td>{{item.numero}}</td>
