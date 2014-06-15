@@ -95,13 +95,14 @@ fieldset{
 	color: #FFF;
 	font-family: 'Open_light';
 	border-radius: 20px;
-	padding: 5px;
+	padding: 7px;
 }
 
 .pesquisar a{
 	color: #d2d4d8;
 	text-decoration: none;
 	font-family: 'Open_regular';
+	margin: 0 0 20px 0;
 }
 .formulario_pesquisa{
 	width: 600px;
