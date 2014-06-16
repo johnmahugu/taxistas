@@ -82,6 +82,11 @@ fieldset{
 	text-align: center;
 	padding: 0 0 0 155px;
 }
+label{
+	font-family: 'Open_regular';
+	font-size: 1.2em;
+	color: #fff;
+}
 .lista{
 	border: 0 !important; 
 	-webkit-appearance: none;
