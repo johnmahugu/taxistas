@@ -97,12 +97,47 @@
     "matricula":"Ld lh 12 56",
     "via":"Vila Alice"
   },
+    {
+    "nome":"Arroz Doce",
+    "dispo":"Terças",
+    "numero":"999245672",
+    "matricula":"Ld lh 12 56",
+    "via":"Luanda"
+  },
   {
-    "nome":"Augusto da Costa",
+    "nome":"João de Carvalho",
+    "dispo":"Quintas",
+    "numero":"999245672",
+    "matricula":"Ld lh 12 56",
+    "via":"Marçal"
+  },
+  {
+    "nome":"Fabia Catiano",
+    "dispo":"Quartas",
+    "numero":"999245672",
+    "matricula":"Ld lh 12 56",
+    "via":"São Paulo"
+  },
+  {
+    "nome":"Mima Nãosei",
     "dispo":"Dias de semana",
     "numero":"999245672",
     "matricula":"Ld lh 12 56",
-    "via":"Nzamba-2"
+    "via":"Cacuaco"
+  },
+  {
+    "nome":"Silvio Barroso",
+    "dispo":"Hoje",
+    "numero":"999245672",
+    "matricula":"Ld lh 12 56",
+    "via":"Vila Alice"
+  },
+  {
+    "nome":"Manuela da Costa",
+    "dispo":"Dias de semana",
+    "numero":"999245672",
+    "matricula":"Ld lh 12 56",
+    "via":"Calemba-2"
   }
   
 ]
