@@ -1,0 +1,29 @@
+{
+  "name": "taxistas",
+  "version": "0.0.1",
+  "homepage": "https://github.com/8897/taxistas",
+  "authors": [
+    "Doriel Fonseca <doriel3572@gmail.com>"
+  ],
+  "description": "A simple app to search for taxi drivers",
+  "keywords": [
+    "candongueiro",
+    "8897",
+    "doriel3572",
+    "eryxson8897",
+    "doriel",
+    "erickson"
+  ],
+  "license": "none",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-latest": "~1.2.18",
+    "jquery": "~2.1.1"
+  }
+}
