@@ -54,66 +54,19 @@
 
 							</table>-->
 
-							<div class="info_da_pesq">
+							<div class="info_da_pesq" ng-repeat="item in taxistas | filter: query | orderBy: 'nome'">
 								<div class="ponto"></div>
 								
 								<ul>
-									<li><span>NOME</span> - Lorem Lorem Lorem</li>
-									<li><span>DISPONIBILIDADE</span> - 2ª á 6ª</li>
-									<li><span>NUMERO DE TELEMOVEL</span> - 923400965</li>
-									<li><span>MATRICULA</span> - LD2345AD</li>
-									<li><span>VIA</span> - Maianga</li>
+									<li><span>NOME</span> - {{item.nome}}</li>
+									<li><span>DISPONIBILIDADE</span> - {{item.dispo}}</li>
+									<li><span>NÚMERO DE TELEMOVEL</span> - {{item.numero}}</li>
+									<li><span>MATRÍCULA</span> - {{item.matricula}}</li>
+									<li><span>VIA</span> - {{item.via}}</li>
 								</ul>
 								
 							</div>
-							<div class="info_da_pesq">
-								<div class="ponto"></div>
-								
-								<ul>
-									<li><span>NOME</span> - Lorem Lorem Lorem</li>
-									<li><span>DISPONIBILIDADE</span> - 2ª á 6ª</li>
-									<li><span>NUMERO DE TELEMOVEL</span> - 923400965</li>
-									<li><span>MATRICULA</span> - LD2345AD</li>
-									<li><span>VIA</span> - Maianga</li>
-								</ul>
-								
-							</div>
-							<div class="info_da_pesq">
-								<div class="ponto"></div>
-								
-								<ul>
-									<li><span>NOME</span> - Lorem Lorem Lorem</li>
-									<li><span>DISPONIBILIDADE</span> - 2ª á 6ª</li>
-									<li><span>NUMERO DE TELEMOVEL</span> - 923400965</li>
-									<li><span>MATRICULA</span> - LD2345AD</li>
-									<li><span>VIA</span> - Maianga</li>
-								</ul>
-								
-							</div>
-							<div class="info_da_pesq">
-								<div class="ponto"></div>
-								
-								<ul>
-									<li><span>NOME</span> - Lorem Lorem Lorem</li>
-									<li><span>DISPONIBILIDADE</span> - 2ª á 6ª</li>
-									<li><span>NUMERO DE TELEMOVEL</span> - 923400965</li>
-									<li><span>MATRICULA</span> - LD2345AD</li>
-									<li><span>VIA</span> - Maianga</li>
-								</ul>
-								
-							</div>
-							<div class="info_da_pesq">
-								<div class="ponto"></div>
-								
-								<ul>
-									<li><span>NOME</span> - Lorem Lorem Lorem</li>
-									<li><span>DISPONIBILIDADE</span> - 2ª á 6ª</li>
-									<li><span>NUMERO DE TELEMOVEL</span> - 923400965</li>
-									<li><span>MATRICULA</span> - LD2345AD</li>
-									<li><span>VIA</span> - Maianga</li>
-								</ul>
-								
-							</div>
+
 						</div>
 
 
@@ -125,7 +78,12 @@
 				
 			</section>	
 			<footer>
-					<span>Copyright © - 2014 - 8897 creative studio - Todos direitos reservados</span>
+					<figure>
+					  <img src="img/facebook_norm.png">
+					  <img src="img/instagram_norm.png">
+					  <img src="img/twitter_norm.png">
+					</figure>
+					<span>Copyright © - 2014 - 8897 Creative Studio - Todos Direitos Reservados</span>
 			</footer>
 		</div>
 	</div>

@@ -107,7 +107,7 @@ label{
 	color: #d2d4d8;
 	text-decoration: none;
 	font-family: 'Open_regular';
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 320px;
 }
 .formulario_pesquisa{
 	width: 600px;
@@ -214,7 +214,7 @@ input[type="text"] {
 	opacity: .7;
 
 }
-
+/*
 table td, th {
       
 }
@@ -228,7 +228,7 @@ td{
 	color: #d2d4d8;
 	font-family: 'Open_light';
 	border: 1px solid #6d6e71;
-}
+}*/
 .seta_anterior, .seta_proximo{
 	width: 20px;
 	height: 20px;
@@ -252,11 +252,11 @@ td{
 	cursor: pointer;
 }
 .seta_anterior{
-	left: 50px;
+	left: 200px;
 	
 }
 .seta_proximo{
-	right: 50px;
+	right: 200px;
 }
 footer{
 	background-color: #6d6e71;
@@ -265,7 +265,13 @@ footer{
 	text-align: center;
 	color: #d2d4d8;
 	font-family: 'Open_light';
+
 }
 footer span{
-	
+	margin: 10px 215px 0 0;
+	float: right;
+}
+figure{
+	margin: 7px 0 0 5px;
+	float: left;
 }
