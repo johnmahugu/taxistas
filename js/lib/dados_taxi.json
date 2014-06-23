@@ -41,6 +41,27 @@
     "matricula":"Ld lh 12 56",
     "via":"Morro Bento"
   },
+    {
+    "nome":"Rui Mingas",
+    "dispo":"Quartas",
+    "numero":"999245672",
+    "matricula":"Ld lh 12 56",
+    "via":"Prenda Mulembera"
+  },
+  {
+    "nome":"Marcelo Domingos",
+    "dispo":"Quartas",
+    "numero":"999245672",
+    "matricula":"Ld lh 12 56",
+    "via":"Rua Augusta"
+  },
+  {
+    "nome":"Martelo Barrozo",
+    "dispo":"3ª",
+    "numero":"999245672",
+    "matricula":"Ld lh 12 56",
+    "via":"Morro Bento"
+  },
   {
     "nome":"Sergio Reamos",
     "dispo":"Sabados",
