@@ -52,12 +52,12 @@ header ul li{
 }
 header ul li a{
 	text-decoration: none;
-	font-size: 1.2em;
+	font-size: 19px;
 	color: #655fad;
-	font-family: 'Open_regular';
+	font-family: 'Open_light';
 }
 header ul li a:hover{
-	font-family: 'Open-Semibold';
+	font-family: 'Open_regular';
 }
 
 .corpo{
@@ -72,6 +72,20 @@ header ul li a:hover{
 }
 .corpo .mobi{
 	display: none;
+}
+.conteudo h1{
+	font-size: 4em;
+	color: #d2d4d8;
+	font-family: 'Open_bold';
+	text-align: center;
+}
+.conteudo p{
+	text-align: justify;
+	color: #d2d4d8;
+	padding: 0 20% 0 20%;
+	font-family:'Open_regular';
+
+	
 }
 fieldset{
 	border: 0;
