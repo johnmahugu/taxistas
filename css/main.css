@@ -54,10 +54,10 @@ header ul li a{
 	text-decoration: none;
 	font-size: 19px;
 	color: #655fad;
-	font-family: 'Open_light';
+	font-family: 'Open_regular';
 }
 header ul li a:hover{
-	font-family: 'Open_regular';
+	text-decoration: underline;
 }
 
 .corpo{
