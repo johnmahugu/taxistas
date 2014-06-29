@@ -31,28 +31,27 @@
 .tudo{
 	width: 80.5%;
 	height: auto;
-
 }
 header{
 	top: 0;
 	width: 100%;
-	height: 216px;
+	height: 13.50%;
 }
 header img{
-	margin: 45px 0 5px 5px;
+	margin: 2.8125% 0 03.125% 03.125%;
 }
 header ul{
 	float: right;
-	margin: 45px 50px 0 0;
+	margin: 2.8125% 3.125% 0 0;
 }
 header ul li{
-	margin: 0 0 0 20px;
+	margin: 0 0 0 1.25%;
 	list-style: none;
 	display: inline-block;
 }
 header ul li a{
 	text-decoration: none;
-	font-size: 19px;
+	font-size: 1.1875em;
 	color: #655fad;
 	font-family: 'Open_regular';
 }
@@ -61,7 +60,7 @@ header ul li a:hover{
 }
 
 .corpo{
-	height: 764px;
+	height: 47.75%;
 	background-image: url(../img/bg_página_2_5.png);
 	background-repeat: no-repeat;
 	position: relative;
@@ -94,39 +93,24 @@ fieldset{
 	width: 100%;
 	height: auto;
 	text-align: center;
-	padding: 0 0 0 155px;
+	padding: 0 0 0 16.975%;
 }
 label{
 	font-family: 'Open_regular';
 	font-size: 1.2em;
 	color: #fff;
 }
-.lista{
-	border: 0 !important; 
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	-ms-appearance:none;
-	-o-appearance:none; 
-	background: #0088cc url(../img/seta.png) no-repeat 90% center;
-	width: 100px; 
-	text-indent: 0.01px; 
-	text-overflow: "";  
-	color: #FFF;
-	font-family: 'Open_light';
-	border-radius: 20px;
-	padding: 7px;
-}
 
 .pesquisar a{
 	color: #d2d4d8;
 	text-decoration: none;
 	font-family: 'Open_regular';
-	margin: 0 0 20px 320px;
+	margin: 0 0 2.8125% 52.0%;
 }
 .formulario_pesquisa{
-	width: 600px;
+	width: 64.0%;
 	position: relative;
-	margin: 20px 0 5px 0;
+	margin: 2.8125% 0 5px 0;
 }
 input[type="text"] {
 	width: 400px;
@@ -158,10 +142,14 @@ input[type="text"] {
 }
 .conteudo_da_pesquisa{
 	width: 100%;
-	height: 368px;
+	height: 358px;
 	position: relative;
 	margin: 10px 0 0 0;
-	
+	padding: 0 0 5px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing: border-box;	
 }
 .controlo_da_pesq{
 	padding: 0 0 0 0;
@@ -173,7 +161,6 @@ input[type="text"] {
 	-moz-box-sizing: border-box;
 	-ms-box-sizing:border-box;
 	-o-box-sizing: border-box;
-
 }
 .controlo_da_pesq::-webkit-scrollbar {
     width: 10px;
@@ -188,9 +175,10 @@ input[type="text"] {
     border-radius: 20px
 }
 .info_da_pesq{
-	width: 450px;
-	height: 120px;
+	width: 95%;
+	height: 33.0%;
 	margin: 5px 0 0 0;
+	padding: 0 5px 0 5px;
 	background-color: #655fad;
 	-webkit-border-radius:100px;
 	-moz-border-radius:100px;
